@@ -1,0 +1,19 @@
+{
+  "name": "convension-service",
+  "version": "1.0.0",
+  "description": "Beta for the convension coming up",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "serve": "serve ."
+  },
+  "author": "Decory Herbert",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
