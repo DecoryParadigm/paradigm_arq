@@ -1,19 +1,16 @@
 <html>
   <head>
-    <link rel="manifest" href="/js/pwa.webmanifest">
+    <title>{{ title }}</title>
+    <link rel="manifest" href="/public/js/pwa.webmanifest">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="/public/assets/styles.css"
+    <link rel="stylesheet" href="/public/assets/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="white"/>
 
   </head>
   <body>
-    <p class="text-xl text-center">Tapp</p>
-    <br>
-    <span>You are now</span> <span><b class="page-status">online</b></span>
+    {{{ body }}}
     <!-- <script src="/js/status.js"></script> -->
     <script src="/js/pwa.js"></script>
   </body>
 </html>
-
-
