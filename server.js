@@ -1,26 +1,22 @@
 
-
+const eg = require ('express-handlebars');
 const express = require('express')
 const path = require('path');
 const app = express()
 
 
-
-
-// app registry
-app.use(express.static(path.join(__dirname, 'public/pages')))
-app.use("/public/assets", express.static('public/assets'))
-
+// Engine setup
+app.engine('handlebars', eg.engine());
+app.set('view engine', 'handlebars');
+app.set('public', './public/pages');
 
 
 // Routes 
-app.get('/', (req,res)=>{
-    
-res.sendFile(path.join(__dirname, 'index.html'));
+app.get('/', (req, res) => {
+    res.render('home', { body: 'home' , title: 'Mubashir', condition: false })
 })
 
 
-
-app.listen(3000 , () => {
+app.listen(3000, () => {
     console.log(`Example app listening on port change`)
 })

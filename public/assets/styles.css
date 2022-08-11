@@ -53,6 +53,8 @@ html {
 
 body {
   margin: 0;
+  background-color: #252D49;
+  color: white;
   /* 1 */
   line-height: inherit;
   /* 2 */
