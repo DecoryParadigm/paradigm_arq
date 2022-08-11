@@ -9,6 +9,7 @@ const app = express()
 
 // app registry
 app.use(express.static(path.join(__dirname, 'public/pages')))
+app.use("/public/assets", express.static('public/assets'))
 
 
 
