@@ -25,6 +25,7 @@ Reda Zaza, Mubashir Andrabi, Decory Herbert.
 
 ## Database Schemas
 ``` json
+{
 _Prospect_DB_Schema: { 
 Id: INT AUTO_INCREMENT PK
 Interest: “STRING()”,
@@ -37,7 +38,7 @@ Phone_number: “INT”,
 Notes: “STRING()”, 
 Submission_date: “DATE”, 
 Time_of_preferred_Contact: “DATE / STRING()”
-}
+},
 
 
 _Options_DB_Schema: {
@@ -47,10 +48,13 @@ Region_Id: STRING(),
 Email: STRING(), 
 State: STRING()
 }
+
+}
 ```
 
 ## API Endpoints
 ```json
+{
 Request_method: “GET”
 Endpoint: “/fields”
 Request_body_model: { field_id: “id” }
@@ -63,4 +67,6 @@ Response_object_model: rep: { Full_name:str, Region_id:str, Email:str, State:str
 Request_method: “POST”
 Endpoint: “/prospect_submission”
 Response_object_model: status: { code: 200 }
+
+}
 ```
