@@ -23,3 +23,44 @@ For support send an email to dharbert@paradigm.com or rzaza@paradigm.com
 This is a pradigm application buiild, ideated and design by Zoltan Balla, 
 Reda Zaza, Mubashir Andrabi, Decory Herbert.
 
+## Database Schemas
+``` json
+_Prospect_DB_Schema: { 
+Id: INT AUTO_INCREMENT PK
+Interest: “STRING()”,
+Firstname: “STRING()”,
+Lastname: “STRING()”, 
+Company: “STRING()”, 
+Region: “STRING()”,
+Email: “STRING()”, 
+Phone_number: “INT”,
+Notes: “STRING()”, 
+Submission_date: “DATE”, 
+Time_of_preferred_Contact: “DATE / STRING()”
+}
+
+
+_Options_DB_Schema: {
+Id: INT AUTO_INCREMENT PK, 
+Full_name: STRING(), 
+Region_Id: STRING(),
+Email: STRING(), 
+State: STRING()
+}
+```
+
+## API Endpoints
+```json
+Request_method: “GET”
+Endpoint: “/fields”
+Request_body_model: { field_id: “id” }
+Response_object_model: fields: { Dynamic_response }, 200
+
+Request_method: “GET”
+Endpoint: “/request_rep”
+Response_object_model: rep: { Full_name:str, Region_id:str, Email:str, State:str  }, 200
+
+Request_method: “POST”
+Endpoint: “/prospect_submission”
+Response_object_model: status: { code: 200 }
+```
