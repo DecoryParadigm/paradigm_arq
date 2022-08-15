@@ -3,7 +3,7 @@ Capturing the interest of prospects in an intereactive way.
 
 ## Description 
 We've built this aquistion platform to assist representitives 
-where-ever they go. To aquire information from those show interest
+where-ever they go. To aquire information from those showing interest
 in paradigm's products, catalogs or becoming a dealer. 
 
 By a click of a button you can have a native
