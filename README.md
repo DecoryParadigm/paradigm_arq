@@ -27,26 +27,26 @@ Reda Zaza, Mubashir Andrabi, Decory Herbert.
 ``` json
 {
 _Prospect_DB_Schema: { 
-Id: INT AUTO_INCREMENT PK
-Interest: “STRING()”,
-Firstname: “STRING()”,
-Lastname: “STRING()”, 
-Company: “STRING()”, 
-Region: “STRING()”,
-Email: “STRING()”, 
-Phone_number: “INT”,
-Notes: “STRING()”, 
-Submission_date: “DATE”, 
-Time_of_preferred_Contact: “DATE / STRING()”
+"Id": "INT AUTO_INCREMENT PK",
+"Interest": “STRING()”,
+"Firstname": “STRING()”,
+"Lastname": “STRING()”, 
+"Company": “STRING()”, 
+"Region": “STRING()”,
+"Email": “STRING()”, 
+"Phone_number": “INT”,
+"Notes": “STRING()”, 
+"Submission_date": “DATE”, 
+"Time_of_preferred_Contact": “DATE / STRING()”
 },
 
 
 _Options_DB_Schema: {
-Id: INT AUTO_INCREMENT PK, 
-Full_name: STRING(), 
-Region_Id: STRING(),
-Email: STRING(), 
-State: STRING()
+"Id": "INT AUTO_INCREMENT PK", 
+"Full_name": "STRING()", 
+"Region_Id": "STRING()",
+"Email": "STRING()", 
+"State": "STRING()"
 }
 
 }
