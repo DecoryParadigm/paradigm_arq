@@ -17,7 +17,7 @@ the application on you device you you will be prompted by your browser
 to download the application to your device. It's that simple. 
 
 ## Support 
-For support send an email to dharbert@paradigm.com or rzaza@paradigm.com
+For support send an email to dharbert@paradigm.com, mandrabi@paradigm.com or rzaza@paradigm.com
 
 ## Contributors
 This is a pradigm application buiild, ideated and design by Zoltan Balla, 
