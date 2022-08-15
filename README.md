@@ -20,8 +20,8 @@ to download and install the application locally. It's that simple.
 For support send an email to dharbert@paradigm.com, mandrabi@paradigm.com or rzaza@paradigm.com
 
 ## Contributors
-This is a pradigm application buiild, ideated and design by Zoltan Balla, 
-Reda Zaza, Mubashir Andrabi, Decory Herbert.
+This is a pradigm application; built, ideated and design by Zoltan Balla, 
+Reda Zaza, Mubashir Andrabib & Decory Herbert.
 
 ## Database Schemas
 ``` json
