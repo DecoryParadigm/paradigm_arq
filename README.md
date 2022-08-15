@@ -1,5 +1,5 @@
 # Paradigm Arq 
-Capturing the interest of prospects in an intereactive way.
+Bridging the gap between prospects and all three brands.
 
 ## Description 
 We've built this aquistion platform to assist representitives 
