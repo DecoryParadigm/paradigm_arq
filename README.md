@@ -26,7 +26,7 @@ Reda Zaza, Mubashir Andrabi, Decory Herbert.
 ## Database Schemas
 ``` json
 {
-_Prospect_DB_Schema: { 
+"_Prospect_DB_Schema": { 
 "Id": "INT AUTO_INCREMENT PK",
 "Interest": “STRING”,
 "Firstname": “STRING”,
@@ -41,7 +41,7 @@ _Prospect_DB_Schema: {
 },
 
 
-_Options_DB_Schema: {
+"_Options_DB_Schema": {
 "Id": "INT AUTO_INCREMENT PK", 
 "Full_name": "STRING", 
 "Region_Id": "STRING",
