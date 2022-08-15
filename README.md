@@ -55,18 +55,18 @@ Reda Zaza, Mubashir Andrabi, Decory Herbert.
 ## API Endpoints
 ```json
 {
-"Request_method": “GET”
-"Endpoint": “/fields”
-"Request_body_model": { "field_id": “id” }
-"Response_object_model": "fields": { Dynamic_response }, 200
+"Request_method": “GET”,
+"Endpoint": “/fields”,
+"Request_body_model": { "field_id": “id” },
+"Response_object_model": "fields": { Dynamic_response }, 200,
 
-"Request_method": “GET”
-"Endpoint": “/request_rep”
-"Response_object_model": "rep": { Full_name:str, Region_id:str, Email:str, State:str  }, 200
+"Request_method": “GET”,
+"Endpoint": “/request_rep”,
+"Response_object_model": "rep": { "Full_name":"str", "Region_id":"str", "Email":"str", "State":"str"  }, 200,
 
-"Request_method": “POST”
-"Endpoint": “/prospect_submission”
-"Response_object_model": "status": { code: 200 }
+"Request_method": “POST”,
+"Endpoint": “/prospect_submission”,
+"Response_object_model": "status": { "code": "200" },
 
 }
 ```
