@@ -13,8 +13,8 @@ web app.
 
 ## Installatiom
 To install this application on your device is simple. When browsing 
-the application on you device you you will be prompted by your browser
-to download the application to your device. It's that simple. 
+the application on your device you will be prompted by your browser
+to download and install the application locally. It's that simple. 
 
 ## Support 
 For support send an email to dharbert@paradigm.com, mandrabi@paradigm.com or rzaza@paradigm.com
